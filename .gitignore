@@ -1,0 +1,40 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+
+data/videos/*
+data/frames/*
+
+!data/videos/.gitkeep
+!data/frames/.gitkeep
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# IDE
+.vscode/
+
+# Generated data and large video files
+data/videos/*
+data/frames/*
+data/frame_embeddings.npy
+
+# Keep empty data directories in Git
+!data/videos/.gitkeep
+!data/frames/.gitkeep
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
